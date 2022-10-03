@@ -1,76 +1,76 @@
 /* Cover
 ============================================================================= */
 :root {
-  --cover-color: ;
+  --cover-color: 0;
   --cover-margin: 0 auto;
   --cover-max-width: 40em;
   --cover-text-align: center;
 
   /* Background */
-  --cover-background-blend-mode: ;
+  --cover-background-blend-mode: 0;
   --cover-background-color: var(--base-background-color);
-  --cover-background-image: ;
+  --cover-background-image: 0;
   --cover-background-mask-color: var(--base-background-color);
   --cover-background-mask-opacity: 0.8;
-  --cover-background-mask-visibility: ;
+  --cover-background-mask-visibility: 0;
   --cover-background-position: center center;
   --cover-background-repeat: no-repeat;
   --cover-background-size: cover;
 
   /* Blockquote (Subtitle) */
-  --cover-blockquote-color: ;
+  --cover-blockquote-color: 0;
   --cover-blockquote-font-size: var(--font-size-l);
 
   /* Border */
-  --cover-border-inset: ;
+  --cover-border-inset: 0;
   --cover-border-color: var(--theme-color);
-  --cover-border-width: ;
+  --cover-border-width: 0;
 
   /* Buttons */
-  --cover-button-background: ;
-  --cover-button-background--hover: ;
+  --cover-button-background: 0;
+  --cover-button-background--hover: 0;
   --cover-button-border: 1px solid var(--theme-color);
-  --cover-button-border--hover: ;
+  --cover-button-border--hover: 0;
   --cover-button-border-radius: var(--border-radius-m);
-  --cover-button-box-shadow: ;
-  --cover-button-box-shadow--hover: ;
+  --cover-button-box-shadow: 0;
+  --cover-button-box-shadow--hover: 0;
   --cover-button-color: var(--theme-color);
-  --cover-button-color--hover: ;
+  --cover-button-color--hover: 0;
   --cover-button-padding: 0.5em 2rem;
   --cover-button-text-decoration: none;
-  --cover-button-text-decoration--hover: ;
-  --cover-button-text-decoration-color: ;
-  --cover-button-text-decoration-color--hover: ;
+  --cover-button-text-decoration--hover: 0;
+  --cover-button-text-decoration-color: 0;
+  --cover-button-text-decoration-color--hover: 0;
   --cover-button-transition: all var(--duration-fast) ease-in-out;
 
   /* Buttons - Primary */
   --cover-button-primary-background: var(--theme-color);
-  --cover-button-primary-background--hover: ;
+  --cover-button-primary-background--hover: 0;
   --cover-button-primary-border: 1px solid var(--theme-color);
-  --cover-button-primary-border--hover: ;
-  --cover-button-primary-box-shadow: ;
-  --cover-button-primary-box-shadow--hover: ;
+  --cover-button-primary-border--hover: 0;
+  --cover-button-primary-box-shadow: 0;
+  --cover-button-primary-box-shadow--hover: 0;
   --cover-button-primary-color: #fff;
-  --cover-button-primary-color--hover: ;
-  --cover-button-primary-text-decoration: ;
-  --cover-button-primary-text-decoration--hover: ;
-  --cover-button-primary-text-decoration-color: ;
-  --cover-button-primary-text-decoration-color--hover: ;
+  --cover-button-primary-color--hover: 0;
+  --cover-button-primary-text-decoration: 0;
+  --cover-button-primary-text-decoration--hover: 0;
+  --cover-button-primary-text-decoration-color: 0;
+  --cover-button-primary-text-decoration-color--hover: 0;
 
   /* Heading */
   --cover-heading-color: var(--theme-color);
   --cover-heading-font-size: var(--font-size-xxl);
-  --cover-heading-font-size-min: ;
-  --cover-heading-font-size-max: ;
+  --cover-heading-font-size-min: 0;
+  --cover-heading-font-size-max: 0;
   --cover-heading-font-weight: normal;
 
   /* Links */
-  --cover-link-border-bottom: ;
-  --cover-link-border-bottom--hover: ;
-  --cover-link-color: ;
-  --cover-link-color--hover: ;
+  --cover-link-border-bottom: 0;
+  --cover-link-border-bottom--hover: 0;
+  --cover-link-color: 0;
+  --cover-link-color--hover: 0;
   --cover-link-text-decoration: underline;
-  --cover-link-text-decoration--hover: ;
-  --cover-link-text-decoration-color: ;
-  --cover-link-text-decoration-color--hover: ;
+  --cover-link-text-decoration--hover: 0;
+  --cover-link-text-decoration-color: 0;
+  --cover-link-text-decoration-color--hover: 0;
 }
