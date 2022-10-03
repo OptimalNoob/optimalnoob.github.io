@@ -1,19 +1,19 @@
 /* Base
 ============================================================================= */
 :root {
-  --base-background-color: #fff;
-  --base-color: var(--mono-shade2);
+  --base-background-color: rgb(45, 47, 59);
+  --base-color: var(--mono-tint1);
   --base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --base-font-size: 16px;
   --base-font-weight: normal;
-  --base-letter-spacing: 0;
+  --base-letter-spacing: 0px;
   --base-line-height: 1.7;
 
   /* Emoji */
   --emoji-size: calc(var(--base-line-height) * 1em);
 
   /* Horizontal Rule */
-  --hr-border: 1px solid var(--mono-tint2);
+  --hr-border: 1px solid var(--mono-tine2);
 
   /* Mark */
   --mark-background: #ffecb3;
@@ -26,7 +26,7 @@
   --pre-line-height: 0;
 
   /* Selection */
-  --selection-color: #b4d5fe;
+  --selection-color: hsl(264, 46%, 30%);
 
   /* Small */
   --small-font-size: var(--font-size-s);

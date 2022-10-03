@@ -1,22 +1,22 @@
 /* Content
 ============================================================================= */
 :root {
-  --content-max-width: 55em;
+  --content-max-width: 100em;
 
   /* Blockquote */
   --blockquote-background: var(--mono-tint3);
-  --blockquote-border-color: 0;
+  --blockquote-border-color: black;
   --blockquote-border-style: solid;
-  --blockquote-border-width: 0;
+  --blockquote-border-width: 0px;
   --blockquote-border-radius: var(--border-radius-m);
-  --blockquote-color: 0;
-  --blockquote-em-font-family: 0;
-  --blockquote-em-font-size: 0;
-  --blockquote-em-font-style: 0;
+  --blockquote-color: black;
+  --blockquote-em-font-family: var(--base-font-family);
+  --blockquote-em-font-size: 1em;
+  --blockquote-em-font-style: regular;
   --blockquote-em-font-weight: normal;
-  --blockquote-font-family: 0;
-  --blockquote-font-size: 0;
-  --blockquote-font-style: 0;
+  --blockquote-font-family: var(--base-font-family);
+  --blockquote-font-size: 1em;
+  --blockquote-font-style: regular;
   --blockquote-font-weight: normal;
   --blockquote-quotes-close: 0;
   --blockquote-quotes-color: 0;
