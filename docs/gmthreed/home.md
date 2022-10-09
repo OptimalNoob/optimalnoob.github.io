@@ -1,6 +1,6 @@
 <div style="text-align:center;">
 
-# GM DevPanels
+# GM ThreeD
 
 </div>
 

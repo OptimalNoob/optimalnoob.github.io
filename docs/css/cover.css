@@ -32,8 +32,8 @@
   --cover-button-border: 1px solid var(--theme-hover-color);
   --cover-button-border--hover: 1px solid var(--theme-hover-color);
   --cover-button-border-radius: var(--border-radius-m);
-  --cover-button-box-shadow: 0px;
-  --cover-button-box-shadow--hover: 0px;
+  --cover-button-box-shadow: none;
+  --cover-button-box-shadow--hover: none;
   --cover-button-color: var(--mono-tint3);
   --cover-button-color--hover: var(--mono-tint3);
   --cover-button-padding: 0.5em 2rem;

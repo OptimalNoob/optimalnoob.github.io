@@ -1,13 +1,11 @@
-- Package
+* :package: Packages
 
-  - [GMBackPage]()
-  - [Writing more pages]()
-  - [Custom navbar]()
-  - [Cover page]()
+  * [GM BackPack](gmbackpack/home)
+  * [GM DevPanels](gmdevpanels/home)
+  * [GM Dialog](gmdialog/home)
+  * [GM Essentials](gmessentials/home)
+  * [GM Inputs](gminputs/home)
+  * [GM ThreeD](gmthreed/home)
+  * [GM Quests](gmquests/home)
 
-- Configuration
-  - [Configuration]()
-  - [Themes]()
-  - [Using plugins]()
-  - [Markdown configuration]()
-  - [Language highlight]()
+* :wrench: Configuration (WIP)

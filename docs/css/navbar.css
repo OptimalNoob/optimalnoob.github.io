@@ -2,67 +2,66 @@
 ============================================================================= */
 :root {
   /* Root */
-  --navbar-root-background: var(--mono-tint3);
+  --navbar-root-background: var(--mono-shade2);
   --navbar-root-background--active: var(--mono-tint2);
-  --navbar-root-background--hover: 0;
-  --navbar-root-border-color: var(--mono-tint3);
-  --navbar-root-border-color--active: 0;
-  --navbar-root-border-color--hover: 0;
-  --navbar-root-border-radius: 0;
+  --navbar-root-background--hover: var(--mono-tint3);
+  --navbar-root-border-color: none;
+  --navbar-root-border-color--active: none;
+  --navbar-root-border-color--hover: none;
+  --navbar-root-border-radius: 0px;
   --navbar-root-border-style: solid;
-  --navbar-root-border-style--active: 0;
-  --navbar-root-border-style--hover: 0;
-  --navbar-root-border-width: 0;
-  --navbar-root-color: 0;
-  --navbar-root-color--active: 0;
-  --navbar-root-color--hover: 0;
-  --navbar-root-margin: 0 0 0 1.5em;
-  --navbar-root-padding: 0;
+  --navbar-root-border-style--active: solid;
+  --navbar-root-border-style--hover: solid;
+  --navbar-root-border-width: black;
+  --navbar-root-color: black;
+  --navbar-root-color--active: black;
+  --navbar-root-color--hover: black;
+  --navbar-root-margin: 0em 0em 0em 1.5em;
+  --navbar-root-padding: 0em;
   --navbar-root-transition: all var(--duration-fast);
-  --navbar-root-text-decoration: 0;
-  --navbar-root-text-decoration--active: 0;
-  --navbar-root-text-decoration--hover: 0;
-  --navbar-root-text-decoration-color: 0;
-  --navbar-root-text-decoration-color--active: 0;
-  --navbar-root-text-decoration-color--hover: 0;
+  --navbar-root-text-decoration: none;
+  --navbar-root-text-decoration--active: none;
+  --navbar-root-text-decoration--hover: none;
+  --navbar-root-text-decoration-color: black;
+  --navbar-root-text-decoration-color--active: black;
+  --navbar-root-text-decoration-color--hover: black;
 
   /* Menus */
-  --navbar-menu-background: var(--base-background-color);
-  --navbar-menu-border-color: 0;
+  --navbar-menu-background: var(--mono-shade2);
+  --navbar-menu-border-color: var(--mono-shade1);
   --navbar-menu-border-radius: var(--border-radius-m);
-  --navbar-menu-border-width: 0;
-  --navbar-menu-box-shadow: rgba(45, 45, 45, 0.05) 0px 0px 1px, rgba(49, 49, 49, 0.05) 0px 1px 2px, rgba(42, 42, 42, 0.05) 0px 2px 4px,
-    rgba(32, 32, 32, 0.05) 0px 4px 8px, rgba(49, 49, 49, 0.05) 0px 8px 16px, rgba(35, 35, 35, 0.05) 0px 16px 32px;
+  --navbar-menu-border-width: 1px;
+  --navbar-menu-box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 1px, rgba(0, 0, 0, 0.05) 0px 4px 1px, rgba(0, 0, 0, 0.05) 0px 6px 1px;
   --navbar-menu-padding: 0.5em;
   --navbar-menu-transition: all var(--duration-fast);
 
   /* Menu Root */
-  --navbar-menu-root-background: 0;
-  --navbar-menu-root-background--active: 0;
-  --navbar-menu-root-background--hover: 0;
-  --navbar-menu-root-padding: 0;
+  --navbar-menu-root-background: black;
+  --navbar-menu-root-background--active: black;
+  --navbar-menu-root-background--hover: black;
+  --navbar-menu-root-padding: black;
 
   /* Menu Links */
-  --navbar-menu-link-background: 0;
-  --navbar-menu-link-background--active: 0;
-  --navbar-menu-link-background--hover: 0;
-  --navbar-menu-link-border-color: 0;
-  --navbar-menu-link-border-color--active: 0;
-  --navbar-menu-link-border-color--hover: 0;
-  --navbar-menu-link-border-radius: 0;
-  --navbar-menu-link-border-style: solid;
-  --navbar-menu-link-border-style--active: 0;
-  --navbar-menu-link-border-style--hover: 0;
-  --navbar-menu-link-border-width: 0;
-  --navbar-menu-link-color: 0;
-  --navbar-menu-link-color--active: 0;
-  --navbar-menu-link-color--hover: 0;
+  --navbar-menu-link-background: none;
+  --navbar-menu-link-background--active: none;
+  --navbar-menu-link-background--hover: none;
+  --navbar-menu-link-border-color: none;
+  --navbar-menu-link-border-color--active: none;
+  --navbar-menu-link-border-color--hover: none;
+  --navbar-menu-link-border-radius: none;
+  --navbar-menu-link-border-style: none;
+  --navbar-menu-link-border-style--active: none;
+  --navbar-menu-link-border-style--hover: none;
+  --navbar-menu-link-border-width: none;
+  --navbar-menu-link-color: none;
+  --navbar-menu-link-color--active: none;
+  --navbar-menu-link-color--hover: none;
   --navbar-menu-link-margin: 0.75em 0.5em;
   --navbar-menu-link-padding: 0.2em 0;
-  --navbar-menu-link-text-decoration: 0;
-  --navbar-menu-link-text-decoration--active: 0;
-  --navbar-menu-link-text-decoration--hover: 0;
-  --navbar-menu-link-text-decoration-color: 0;
-  --navbar-menu-link-text-decoration-color--active: 0;
-  --navbar-menu-link-text-decoration-color--hover: 0;
+  --navbar-menu-link-text-decoration: none;
+  --navbar-menu-link-text-decoration--active: underline;
+  --navbar-menu-link-text-decoration--hover: underline;
+  --navbar-menu-link-text-decoration-color: var(--mono-base);
+  --navbar-menu-link-text-decoration-color--active: var(--mono-tint1);
+  --navbar-menu-link-text-decoration-color--hover: var(--mono-tint3);
 }

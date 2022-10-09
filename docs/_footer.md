@@ -1,0 +1,1 @@
+Maintained by [OptimalNoob](https://github.com/optimalnoob). Built with [docsify](https://docsify.js.org/)
