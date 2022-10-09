@@ -1,0 +1,20 @@
+:root {
+  /* Tab blocks */
+  --docsifytabs-border-color: var(--mono-shade1);
+  --docsifytabs-border-px: 1px;
+  --docsifytabs-border-radius-px: var(--border-radius-s);
+  --docsifytabs-margin: 1.5em 0;
+
+  /* Tabs */
+  --docsifytabs-tab-background: var(--theme-color);
+  --docsifytabs-tab-background--active: var(--theme-hover-color);
+  --docsifytabs-tab-color: var(--mono-tint3);
+  --docsifytabs-tab-color--active: var(--mono-tint1);
+  --docsifytabs-tab-highlight-px: 0px;
+  --docsifytabs-tab-highlight-color: var(--theme-color, currentColor);
+  --docsifytabs-tab-padding: 0.6em 1em;
+
+  /* Tab content */
+  --docsifytabs-content-background: inherit;
+  --docsifytabs-content-padding: 1.5rem;
+}

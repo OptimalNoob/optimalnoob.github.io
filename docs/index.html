@@ -7,7 +7,7 @@
     <meta name="description" content="Description" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
     <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" /> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/content.css" />
@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/sidebar.css" />
     <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/tabs.css" />
   </head>
   <body>
     <div id="app">Please wait...</div>
@@ -22,12 +24,17 @@
     <script>
       window.$docsify = {
         el: "#app",
+        homepage: "home.md",
         name: "GM Packages",
+        logo: "assets/logo_packages01.png",
         repo: "https://github.com/OptimalNoob/GM_Packages",
         loadSidebar: true,
         loadNavbar: true,
-        homepage: "home.md",
+        mergeNavbar: true,
         coverpage: true,
+        tabs: {
+          theme: "classic", // default
+        },
       };
     </script>
   </body>
@@ -35,6 +42,10 @@
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+    <!-- Adding json syntax highlighting -->
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1.22/components/prism-gml.min.js"></script>
 
     <!-- Docsify Plugins-->
 
@@ -42,8 +53,8 @@
     <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
     <!-- Copy Code -->
     <script src="https://unpkg.com/docsify-copy-code@2"></script>
-    <!-- Search Bar -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <!-- Tabs -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
     <!-- Zoom Image -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
     <!-- Pagination -->

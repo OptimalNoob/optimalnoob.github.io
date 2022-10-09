@@ -1,0 +1,7 @@
+.sidebar > h1 img {
+  width: 2em;
+}
+
+.markdown-section pre[data-lang] {
+  border: var(--code-block-border-size) var(--code-block-border-style) var(--code-block-border-color);
+}

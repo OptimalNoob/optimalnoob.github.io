@@ -2,10 +2,10 @@
 ============================================================================= */
 :root {
   /* Root */
-  --navbar-root-background: 0;
-  --navbar-root-background--active: 0;
+  --navbar-root-background: var(--mono-tint3);
+  --navbar-root-background--active: var(--mono-tint2);
   --navbar-root-background--hover: 0;
-  --navbar-root-border-color: 0;
+  --navbar-root-border-color: var(--mono-tint3);
   --navbar-root-border-color--active: 0;
   --navbar-root-border-color--hover: 0;
   --navbar-root-border-radius: 0;

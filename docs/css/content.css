@@ -4,12 +4,12 @@
   --content-max-width: 100em;
 
   /* Blockquote */
-  --blockquote-background: var(--mono-tint3);
+  --blockquote-background: var(--mono-shade2);
   --blockquote-border-color: black;
   --blockquote-border-style: solid;
   --blockquote-border-width: 0px;
   --blockquote-border-radius: var(--border-radius-m);
-  --blockquote-color: black;
+  --blockquote-color: var(--mono-tint2);
   --blockquote-em-font-family: var(--base-font-family);
   --blockquote-em-font-size: 1em;
   --blockquote-em-font-style: regular;
@@ -18,42 +18,45 @@
   --blockquote-font-size: 1em;
   --blockquote-font-style: regular;
   --blockquote-font-weight: normal;
-  --blockquote-quotes-close: 0;
-  --blockquote-quotes-color: 0;
+  --blockquote-quotes-close: ">";
+  --blockquote-quotes-color: var(--mono-tint2);
   --blockquote-quotes-font-family: 0;
   --blockquote-quotes-font-size: 0;
-  --blockquote-quotes-open: 0;
+  --blockquote-quotes-open: "Test";
   --blockquote-padding: 1.5em;
 
   /* Code */
-  --code-font-family: "Fira Code NF", Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "DejaVu Sans Mono",
+  --code-font-family: "Fira Code", Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
   --code-font-size: calc(var(--font-size-m) * 0.95);
   --code-font-weight: normal;
   --code-tab-size: 4;
 
-  --code-block-border-radius: var(--border-radius-m);
+  --code-block-border-size: 1px;
+  --code-block-border-style: solid;
+  --code-block-border-color: var(--mono-tint1);
+  --code-block-border-radius: var(--border-radius-s);
   --code-block-line-height: var(--base-line-height);
-  --code-block-margin: 1em 0;
+  --code-block-margin: 1em 2em;
   --code-block-padding: 1.75em 1.5em 1.5em 1.5em;
 
-  --code-inline-background: var(--code-theme-background);
+  --code-inline-background: var(--mono-shade2);
   --code-inline-border-radius: var(--border-radius-s);
   --code-inline-color: var(--code-theme-text);
   --code-inline-margin: 0 0.15em;
   --code-inline-padding: 0.125em 0.4em;
 
-  --code-theme-background: var(--mono-tint3);
-  --code-theme-comment: 0;
-  --code-theme-function: 0;
-  --code-theme-keyword: 0;
-  --code-theme-operator: 0;
-  --code-theme-punctuation: 0;
-  --code-theme-selection: 0;
-  --code-theme-selector: 0;
-  --code-theme-tag: 0;
-  --code-theme-text: 0;
-  --code-theme-variable: 0;
+  --code-theme-background: inhert;
+  --code-theme-comment: #56648e;
+  --code-theme-function: #72e58e;
+  --code-theme-keyword: #ff79c6;
+  --code-theme-operator: #cecece;
+  --code-theme-punctuation: #f8f8f2;
+  --code-theme-selection: #c07916;
+  --code-theme-selector: #c07916;
+  --code-theme-tag: #8be9fd;
+  --code-theme-text: #e2e1e4;
+  --code-theme-variable: #bd93f9;
 
   /* Headings */
   --heading-color: var(--mono-shade3);

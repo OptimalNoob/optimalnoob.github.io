@@ -1,1 +1,1 @@
-- [< Home](../readme)
+[Home](/home)
