@@ -30,39 +30,39 @@
   --cover-button-background: var(--theme-color);
   --cover-button-background--hover: var(--theme-hover-color);
   --cover-button-border: 1px solid var(--theme-hover-color);
-  --cover-button-border--hover: 0;
+  --cover-button-border--hover: 1px solid var(--theme-hover-color);
   --cover-button-border-radius: var(--border-radius-m);
-  --cover-button-box-shadow: 0;
-  --cover-button-box-shadow--hover: 0;
+  --cover-button-box-shadow: 0px;
+  --cover-button-box-shadow--hover: 0px;
   --cover-button-color: var(--mono-tint3);
-  --cover-button-color--hover: 0;
+  --cover-button-color--hover: var(--mono-tint3);
   --cover-button-padding: 0.5em 2rem;
   --cover-button-text-decoration: none;
-  --cover-button-text-decoration--hover: 0;
-  --cover-button-text-decoration-color: 0;
-  --cover-button-text-decoration-color--hover: 0;
+  --cover-button-text-decoration--hover: none;
+  --cover-button-text-decoration-color: none;
+  --cover-button-text-decoration-color--hover: none;
   --cover-button-transition: all var(--duration-fast) ease-in-out;
 
   /* Buttons - Primary */
   --cover-button-primary-background: var(--theme-color);
-  --cover-button-primary-background--hover: 0;
-  --cover-button-primary-border: 1px solid var(--theme-color);
-  --cover-button-primary-border--hover: 0;
+  --cover-button-primary-background--hover: var(--theme-hover-color);
+  --cover-button-primary-border: 1px solid var(--theme-hover-color);
+  --cover-button-primary-border--hover: 1px solid var(--theme-hover-color);
   --cover-button-primary-box-shadow: 0;
   --cover-button-primary-box-shadow--hover: 0;
-  --cover-button-primary-color: #fff;
-  --cover-button-primary-color--hover: 0;
-  --cover-button-primary-text-decoration: 0;
-  --cover-button-primary-text-decoration--hover: 0;
-  --cover-button-primary-text-decoration-color: 0;
-  --cover-button-primary-text-decoration-color--hover: 0;
+  --cover-button-primary-color: var(--mono-tint3);
+  --cover-button-primary-color--hover: var(--mono-tint3);
+  --cover-button-primary-text-decoration: none;
+  --cover-button-primary-text-decoration--hover: none;
+  --cover-button-primary-text-decoration-color: none;
+  --cover-button-primary-text-decoration-color--hover: none;
 
   /* Heading */
   --cover-heading-color: var(--theme-color);
   --cover-heading-font-size: var(--font-size-xxl);
   --cover-heading-font-size-min: 16px;
   --cover-heading-font-size-max: 32px;
-  --cover-heading-font-weight: normal;
+  --cover-heading-font-weight: 300;
 
   /* Links */
   --cover-link-border-bottom: 0;

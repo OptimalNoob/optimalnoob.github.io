@@ -2,15 +2,15 @@
 ============================================================================= */
 :root {
   --sidebar-background: var(--mono-shade2);
-  --sidebar-border-color: 0;
-  --sidebar-border-width: 0;
-  --sidebar-padding: 0 25px;
+  --sidebar-border-color: var(--theme-color);
+  --sidebar-border-width: 0px;
+  --sidebar-padding: 0 15px;
   --sidebar-transition-duration: var(--duration-fast);
-  --sidebar-width: 17rem;
+  --sidebar-width: 16rem;
 
   /* Name */
-  --sidebar-name-background: 0;
-  --sidebar-name-color: 0;
+  --sidebar-name-background: none;
+  --sidebar-name-color: var(--mono-tint1);
   --sidebar-name-font-family: 0;
   --sidebar-name-font-size: var(--font-size-l);
   --sidebar-name-font-weight: normal;
