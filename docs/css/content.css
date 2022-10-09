@@ -26,8 +26,8 @@
   --blockquote-padding: 1.5em;
 
   /* Code */
-  --code-font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
-    "Courier New", Courier, monospace;
+  --code-font-family: "Fira Code NF", Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
   --code-font-size: calc(var(--font-size-m) * 0.95);
   --code-font-weight: normal;
   --code-tab-size: 4;

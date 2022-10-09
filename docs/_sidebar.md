@@ -1,2 +1,0 @@
-- [Home](/)
-- [GM Backpack](gmbackpack/readme)

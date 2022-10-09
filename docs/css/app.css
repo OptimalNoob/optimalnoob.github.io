@@ -4,8 +4,8 @@
   /* Color
   ------------------------------------------------------------------------- */
   /* Monochrome */
-  --mono-hue: 113;
-  --mono-saturation: 0%;
+  --mono-hue: 231;
+  --mono-saturation: 15%;
 
   /* Monochrome shades (darker) and tints (lighter) */
   --mono-shade3: hsl(var(--mono-hue), var(--mono-saturation), 20%); /* #333333 */
@@ -17,10 +17,11 @@
   --mono-tint3: hsl(var(--mono-hue), var(--mono-saturation), 97%); /* #f7f7f7 */
 
   /* Theme */
-  --theme-hue: 264;
-  --theme-saturation: 61%;
-  --theme-lightness: 57%;
-  --theme-color: hsl(var(--theme-hue), var(--theme-saturation), var(--theme-lightness));
+  --theme-hue: 250;
+  --theme-saturation: 40%;
+  --theme-value: 50%;
+  --theme-color: hsl(var(--theme-hue), var(--theme-saturation), var(--theme-value));
+  --theme-hover-color: hsl(var(--theme-hue), var(--theme-saturation), calc(var(--theme-value) - 15%));
 
   /* Typography
   ------------------------------------------------------------------------- */
@@ -48,9 +49,9 @@
   /* Utility
   ------------------------------------------------------------------------- */
   /* Borders */
-  --border-radius-s: 0;
-  --border-radius-m: 0;
-  --border-radius-l: 0;
+  --border-radius-s: 8px;
+  --border-radius-m: 16px;
+  --border-radius-l: 32px;
 
   /* Animations and transitions */
   --duration-slow: 1s;

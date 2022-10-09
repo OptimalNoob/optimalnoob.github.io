@@ -1,7 +1,7 @@
 /* Sidebar
 ============================================================================= */
 :root {
-  --sidebar-background: var(--base-background-color);
+  --sidebar-background: var(--mono-shade2);
   --sidebar-border-color: 0;
   --sidebar-border-width: 0;
   --sidebar-padding: 0 25px;

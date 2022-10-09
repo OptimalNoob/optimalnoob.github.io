@@ -1,7 +1,7 @@
 /* Cover
 ============================================================================= */
 :root {
-  --cover-color: 0;
+  --cover-color: var(--mono-tint1);
   --cover-margin: 0 auto;
   --cover-max-width: 40em;
   --cover-text-align: center;
@@ -27,14 +27,14 @@
   --cover-border-width: 0;
 
   /* Buttons */
-  --cover-button-background: 0;
-  --cover-button-background--hover: 0;
-  --cover-button-border: 1px solid var(--theme-color);
+  --cover-button-background: var(--theme-color);
+  --cover-button-background--hover: var(--theme-hover-color);
+  --cover-button-border: 1px solid var(--theme-hover-color);
   --cover-button-border--hover: 0;
   --cover-button-border-radius: var(--border-radius-m);
   --cover-button-box-shadow: 0;
   --cover-button-box-shadow--hover: 0;
-  --cover-button-color: var(--theme-color);
+  --cover-button-color: var(--mono-tint3);
   --cover-button-color--hover: 0;
   --cover-button-padding: 0.5em 2rem;
   --cover-button-text-decoration: none;
@@ -60,8 +60,8 @@
   /* Heading */
   --cover-heading-color: var(--theme-color);
   --cover-heading-font-size: var(--font-size-xxl);
-  --cover-heading-font-size-min: 0;
-  --cover-heading-font-size-max: 0;
+  --cover-heading-font-size-min: 16px;
+  --cover-heading-font-size-max: 32px;
   --cover-heading-font-weight: normal;
 
   /* Links */
